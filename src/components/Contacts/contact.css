@@ -1,0 +1,193 @@
+/* Flexbox Layout for Contact Section */
+.contact-w3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 3em;
+}
+
+.contact-left, .contact-right {
+    flex: 1;
+    min-width: 300px; /* Adjust as needed */
+}
+
+.contact-right {
+    padding-right: 20px; /* Space between map and other content */
+}
+
+.contact-left {
+    padding-left: 20px;
+}
+
+.contact-left h4 {
+    font-size: 2em;
+    color: #029241;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.contact-right iframe {
+    width: 100%;
+    height: 298px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contact-right img {
+    margin-bottom: 2em;
+    border-radius: 8px;
+}
+
+.contact-left p {
+    line-height: 2em;
+    color: #555;
+    font-size: 1em;
+}
+
+ul.contact-list li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    font-size: 1em;
+    color: #333;
+}
+
+ul.contact-list li a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul.contact-list {
+    margin: 1em 0 2em;
+}
+
+ul.contact-list li i {
+    color: #029241;
+    margin-right: 15px;
+    top: 2px;
+}
+
+.resp-tabs-list li {
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 0 4px 0 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    width: 33%;
+    text-align: center;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.resp-tabs-list li i {
+    font-size: 1.8em;
+    color: #FAB005;
+    padding: 16px 0;
+}
+
+.resp-tabs-list li:hover {
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    transform: scale(1.05);
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.resp-tab-active {
+    border: 1px solid #c1c1c1;
+    border-bottom: none;
+    margin-bottom: -1px !important;
+    background: #fff;
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.contact-left input[type="text"], .contact-left input[type="email"] {
+    border: 1px solid #CECECE;
+    width: 48%;
+    margin: 0 2% 2% 0;
+    outline: none;
+    font-size: 13px;
+    color: #333;
+    padding: 10px 12px;
+    border-radius: 4px;
+    background: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-left input[type="email"] {
+    margin: 0 0% 2% 0%;
+}
+
+.contact-left textarea {
+    border: 1px solid #CECECE;
+    outline: none;
+    font-size: 13px;
+    color: #333;
+    padding: 10px 12px;
+    width: 99%;
+    resize: none;
+    height: 180px;
+    border-radius: 4px;
+    background: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-left input[type="submit"] {
+    border: none;
+    padding: 10px 15px;
+    width: 22%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 1px;
+    outline: none;
+    background: linear-gradient(145deg, #029241, #028a4d);
+    border-radius: 4px;
+    transition: background 0.5s, transform 0.3s;
+}
+
+.contact-left input[type="submit"]:hover {
+    background: linear-gradient(145deg, #028a4d, #029241);
+    transform: scale(1.05);
+}
+
+.contact-left h5 {
+    color: #029241;
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+.map-grid ul li {
+    display: block;
+    line-height: 2.2em;
+    color: #333;
+    font-size: 1em;
+}
+
+.map-grid ul li i {
+    color: #ED0612;
+    margin-right: 15px;
+}
+
+.banner-top {
+    background: linear-gradient(135deg,#e100ff, #7f00ff);
+    padding: 2em 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

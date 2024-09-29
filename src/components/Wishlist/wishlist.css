@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Banner Top */
+.banner-top {
+    text-align: center;
+    width: 100%;
+
+    display: block;
+    /* background: url('../images/sh.jpg') no-repeat center center; */
+    background-size: cover;
+    padding: 3em 0;
+    color: #fff;
+}
+.banner-top h3 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+.banner-top h4 {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+.banner-top h4 a {
+    color: #FAB005;
+    text-decoration: none;
+}
+.banner-top h4 label {
+    margin: 0 0.5em;
+}
+
+/* Check Out Section */
+.check-out {
+    padding: 3em 0;
+}
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td.t-data, th.t-head {
+    border: 1px solid #D0D0D0;
+    padding: 12px;
+    text-align: left;
+}
+th.t-head {
+    background-color: #F1F1F1;
+    color: #333;
+    font-weight: bold;
+}
+td.t-data {
+    color: #333;
+}
+a.at-in {
+    display: flex;
+    align-items: center;
+    border: 1px solid #DADADA;
+    padding: 1em;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+a.at-in:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.sed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sed h5 {
+    color: #FAB005;
+    font-size: 1.2em;
+}
+.ring-in {
+    position: relative;
+    width: 100px;
+}
+.close1, .close2, .close3 {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #EA0612;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+.close1:hover, .close2:hover, .close3:hover {
+    background: #c8102e;
+}
+.add-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background: #029241;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.add-1:hover {
+    background: #FAB005;
+}
+
+/* Quantity Controls */
+.quantity {
+    display: flex;
+    align-items: center;
+}
+.quantity-select {
+    display: flex;
+    align-items: center;
+}
+.entry {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 5px;
+    background: #E5E5E5;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.entry:hover {
+    background: #ddd;
+}
+.value {
+    font-size: 1em;
+    color: #333;
+}

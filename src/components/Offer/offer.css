@@ -1,0 +1,102 @@
+/* Search Bar Styles */
+.search-bar {
+  background: linear-gradient(135deg, #7f00ff, #e100ff);
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar .search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; /* Adjust width as needed */
+}
+
+.search-bar .form-control {
+  border-radius: 20px 20px; /* Rounded corners on left side */
+  border: none; /* Remove default border */
+  flex: 1; /* Grow to fill available space */
+  margin-right: -1px; /* Remove the gap between input and button */
+}
+
+.search-bar .btn {
+  border-radius: 0 20px 20px 0 ; /* Rounded corners on right side */
+  border: none; /* Remove default border */
+  background: #fff; /* Background color for the button */
+  color: #e100ff; /* Text color for the button */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+/* Centering the search button below the search bar */
+.search-bar .btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.search-bar .btn-container .btn {
+  border-radius: 20px; /* Optional: Make the button fully rounded */
+}
+
+  /* Carousel Styles */
+  #myCarousel .carousel-item img {
+    margin-top:1%;
+    max-height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    filter: brightness(0.5);
+  }
+  
+  /* Content Styles */
+  .content-top {
+    padding: 20px 0;
+  }
+  
+  .offer-w3agile .spec h3 {
+    font-size: 2rem;
+  }
+  
+  .offer-w3agile .spec .ser-t span {
+    background-color: #f06;
+  }
+  
+  .pro-1 {
+    margin-bottom: 20px;
+  }
+  
+  .pro-1 .offer-img {
+    position: relative;
+  }
+  
+  .pro-1 .offer-img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .offer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .mid-1 .women h6 a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .mid-2 p {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add .btn {
+    width: 100%;
+  }
+  

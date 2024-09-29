@@ -1,0 +1,85 @@
+/* Reset default body and main margins/paddings */
+body, main {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the app header */
+.app-header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #7f00ff, #e100ff);  /* Vibrant gradient background */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); Subtle shadow for depth */
+}
+
+/* Styling for the logo link */
+.logo-link {
+  text-decoration: none;
+  color: #fff; /* White text color for contrast */
+}
+
+/* Flex container for logo content */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Space between the small text and big text */
+}
+
+/* Small text styling */
+.small-text {
+  font-size: 2rem; /* Larger size for better visibility */
+  color: white;
+  background-color: #FF6F61; /* Bold background color */
+  padding: 10px;
+  border-radius: 50%; /* Circular background */
+  text-align: center;
+  line-height: 1;
+  animation: bounce 1.5s infinite; /* Bounce animation */
+}
+
+/* Big text styling */
+.big-text {
+  font-size: 4rem; /* Larger size for prominence */
+  font-weight: bold;
+  color: #fff; /* White text color for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+}
+
+/* Subtitle styling */
+.sub-title {
+  font-size: 1.2rem; /* Size for subtitle */
+  color: #fff; /* White color for better contrast */
+  margin-top: 10px; /* Space between big text and subtitle */
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/* Optional: Reset margins/paddings for footer and other components */
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional: Reset margins/paddings for Navbar and Offer components */
+nav, .offer-component {
+  border: 1px solid transparent; /* Invisible border to visualize layout, remove if not needed */
+}
+
+/* Ensure no gaps caused by line-height or font sizes */
+* {
+  box-sizing: border-box;
+}
+
+/* Bounce animation for the small text */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
+}

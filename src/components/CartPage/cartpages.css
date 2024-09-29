@@ -1,0 +1,118 @@
+/* cartpages.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 1em 0;
+    text-align: center;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/* Row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+/* Product Item */
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.product-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+    border-radius: 4px;
+}
+
+.product-item h4 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.product-item p {
+    margin: 0.5em 0;
+    color: #555;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-delete {
+    background-color: #EA0612; /* Red */
+}
+
+.btn-delete:hover {
+    background-color: #d9534f;
+}
+
+.btn-checkout {
+    background-color: #029241; /* Green */
+}
+
+.btn-checkout:hover {
+    background-color: #027a36;
+}
+
+/* Checkout Container */
+.checkout-container {
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-4 {
+        width: 100%;
+        max-width: 400px;
+    }
+}
