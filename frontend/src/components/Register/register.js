@@ -23,7 +23,7 @@ const RegisterForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/register', formData);
+      const response = await axios.post('https://mern-1-mvro.onrender.com/api/register', formData);
       console.log('Registration successful:', response.data);
     } catch (error) {
       console.error('Registration error:', error.response ? error.response.data : error.message);
